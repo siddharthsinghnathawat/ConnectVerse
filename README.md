@@ -3,7 +3,7 @@
 ConnectVerse is a modern, real-time dashboard application designed for managing and monitoring live matching events. It provides a comprehensive suite of tools for event organizers to track participant engagement, manage meetings, and analyze event success through a sleek, intuitive interface.
 
 🌐 Live Demo:
-👉 https://salconnectverse.netlify.app/
+👉 https://ganconnectverse.netlify.app/
 
  
 ## ✨ Features
