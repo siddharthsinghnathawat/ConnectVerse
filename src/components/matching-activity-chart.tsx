@@ -31,9 +31,9 @@ export function MatchingActivityChart({ data }: MatchingActivityChartProps) {
           }}
         />
         <Legend wrapperStyle={{fontSize: "12px"}}/>
-        <Line type="monotone" dataKey="participantLogin" name="Participant Login" stroke="hsl(var(--primary))" strokeWidth={2} dot={false} />
+        <Line type="monotone" dataKey="participant_login" name="Participant Login" stroke="hsl(var(--primary))" strokeWidth={2} dot={false} />
         <Line type="monotone" dataKey="meeting" name="Meeting" stroke="hsl(var(--chart-2))" strokeWidth={2} dot={false}/>
-        <Line type="monotone" dataKey="anotherLine" name="Other Activity" stroke="hsl(var(--chart-4))" strokeWidth={2} dot={false}/>
+        <Line type="monotone" dataKey="another_line" name="Other Activity" stroke="hsl(var(--chart-4))" strokeWidth={2} dot={false}/>
       </LineChart>
     </ResponsiveContainer>
   );

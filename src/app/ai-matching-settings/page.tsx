@@ -1,10 +1,11 @@
 import { DashboardLayout } from "@/components/dashboard-layout";
+import { AiSettingsForm } from "@/components/ai-settings-form";
 
 export default function AiMatchingSettingsPage() {
   return (
     <DashboardLayout pageTitle="AI Matching Settings">
-      <div className="flex items-center justify-center h-full">
-        <h1 className="text-4xl">AI Matching Settings</h1>
+      <div className="max-w-2xl mx-auto">
+        <AiSettingsForm />
       </div>
     </DashboardLayout>
   );
